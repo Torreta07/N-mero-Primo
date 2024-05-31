@@ -5,8 +5,8 @@ int main () {
         y = false;
     }  
     else {
-        for (int = i; i < x * 2; ++1) {
-            if (x % i != 0) {
+        for (int i = 2; i < x / 2; ++1) {
+            if (x % i == 0) {
                 y = false;
                 break;
             }
@@ -16,7 +16,7 @@ int main () {
         printf("El número %d es primo", x);
     }
     else {
-        printf("El número %d no es primo, x);
+        printf("El número %d no es primo", x);
     }
 }
 
